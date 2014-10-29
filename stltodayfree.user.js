@@ -10,7 +10,6 @@ function updateMetaTag() {
   var m = document.getElementsByTagName('meta');
   if(m.length > 0) {
     for(var i in m) {
-      console.log(m[i].name);
       if(m[i].name === '__sync_contentCategory') {
         m[i].content = 'free';
       }
