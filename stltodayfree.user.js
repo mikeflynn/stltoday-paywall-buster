@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name "STLToday Free"
-// @version 2.1
+// @version 2.2
 // @description "A user script to automatically bypass the paywall by marking the content as free."
 // @match http://*.stltoday.com/*
 // @run-at document-start
@@ -28,15 +28,13 @@ function addMetaTag() {
   }
 }
 
-function saveArticle() {
-  window.onload = function() {
-    if(document.getElementById('story')) {
-      var a = document.getElementById('story').innerHTML;
-      setTimeout(function() { document.getElementById('story').innerHTML = a; }, 3000);
-    }
-  };
+function killSurvey() {
+  window._402nosurvey = 1;
 }
 
-addMetaTag();
+var script = document.createElement('script');
+script.appendChild(document.createTextNode('('+ killSurvey +')();'));
+(document.body || document.head || document.documentElement).appendChild(script);
+
 updateMetaTag();
-saveArticle();
+//addMetaTag();
