@@ -2,7 +2,9 @@
 
 ## v2022
 
-The repo and browser extension is back!
+The repo and browser extension is back! You'll need to download the code and add it to your browser manually. Out of the box it is ready to be added [locally to Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked).
+
+I'm working on instructions for adding it Safari and Firefox.
 
 ## v2021
 
