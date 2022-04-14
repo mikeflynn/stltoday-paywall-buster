@@ -28,6 +28,8 @@ You'll need to download the code and add it to your browser manually. Out of the
 
 To install with Safari, you'll need to look in the `safari` directory where there is an xcode project. That project should be open and ran which will add it to your local Safari. Once you approve the STLToday URLs, and turn on the extension, it will work in Safari.
 
+For those interested, there is more info on the conversion process here: https://developer.apple.com/documentation/safariservices/safari_web_extensions/converting_a_web_extension_for_safari
+
 ### Safari Mobile
 
 TBD
