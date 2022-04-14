@@ -2,9 +2,39 @@
 
 ## v2022
 
-The repo and browser extension is back! You'll need to download the code and add it to your browser manually. Out of the box it is ready to be added [locally to Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked).
+The repo and browser extension is back! In April of 2022, STLToday.com released a new version of their paywall. It's smarter, and that's why we have to go back from it being an easily installed bookmarklet, to a full browser extension...but it's not smart enough to stop us.
 
-I'm working on instructions for adding it Safari and Firefox.
+Here's what they did that was smart:
+1. They actually remove the content rather than hide it!
+2. They correctly have the default and error state to block the content.
+3. They are putting the blocking logic higher in the page load.
+4. They are obsurcing their meta tags they use to check access.
+
+Here's what they did that was dumb:
+1. They still deliver all the content to the browser.
+
+This new browser extension counteracts the new paywall in a few different ways:
+* It tries to short curcuit the access logic so that you never get the "hard" paywall and only ever see the warning paywall.
+* It adjusts the content markers so that the logic can't delete it if the "hard" paywall shows up.
+* It hides any paywall modals that show up automatically.
+
+For good measure, the extension also hides a few of the most annoying ad blocks and "features" below the article.
+
+### Chrome
+
+You'll need to download the code and add it to your browser manually. Out of the box it is ready to be added [locally to Chrome](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked).
+
+### Safari
+
+To install with Safari, you'll need to look in the `safari` directory where there is an xcode project. That project should be open and ran which will add it to your local Safari. Once you approve the STLToday URLs, and turn on the extension, it will work in Safari.
+
+### Safari Mobile
+
+TBD
+
+### Firefox
+
+TBD
 
 ## v2021
 

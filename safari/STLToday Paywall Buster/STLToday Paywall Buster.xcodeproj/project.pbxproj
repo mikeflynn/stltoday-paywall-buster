@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023C35542807F75B00C2ACAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C35532807F75B00C2ACAA /* AppDelegate.swift */; };
+		023C35562807F75B00C2ACAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C35552807F75B00C2ACAA /* SceneDelegate.swift */; };
+		023C35592807F75B00C2ACAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023C35572807F75B00C2ACAA /* LaunchScreen.storyboard */; };
+		023C355C2807F75B00C2ACAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023C355A2807F75B00C2ACAA /* Main.storyboard */; };
+		023C35652807F75B00C2ACAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C35642807F75B00C2ACAA /* AppDelegate.swift */; };
+		023C35682807F75B00C2ACAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023C35662807F75B00C2ACAA /* Main.storyboard */; };
+		023C35702807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 023C356F2807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		023C357A2807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 023C35792807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		023C35802807F75B00C2ACAA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 023C35432807F75A00C2ACAA /* Main.html */; };
+		023C35812807F75B00C2ACAA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 023C35432807F75A00C2ACAA /* Main.html */; };
+		023C35822807F75B00C2ACAA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 023C35452807F75A00C2ACAA /* Icon.png */; };
+		023C35832807F75B00C2ACAA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 023C35452807F75A00C2ACAA /* Icon.png */; };
+		023C35842807F75B00C2ACAA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C35462807F75A00C2ACAA /* Style.css */; };
+		023C35852807F75B00C2ACAA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C35462807F75A00C2ACAA /* Style.css */; };
+		023C35862807F75B00C2ACAA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C35472807F75A00C2ACAA /* Script.js */; };
+		023C35872807F75B00C2ACAA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C35472807F75A00C2ACAA /* Script.js */; };
+		023C35882807F75B00C2ACAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C35482807F75A00C2ACAA /* ViewController.swift */; };
+		023C35892807F75B00C2ACAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C35482807F75A00C2ACAA /* ViewController.swift */; };
+		023C358A2807F75B00C2ACAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023C35492807F75B00C2ACAA /* Assets.xcassets */; };
+		023C358B2807F75B00C2ACAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023C35492807F75B00C2ACAA /* Assets.xcassets */; };
+		023C358C2807F75B00C2ACAA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C354B2807F75B00C2ACAA /* SafariWebExtensionHandler.swift */; };
+		023C358D2807F75B00C2ACAA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C354B2807F75B00C2ACAA /* SafariWebExtensionHandler.swift */; };
+		023C35A32807F75B00C2ACAA /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C359F2807F75B00C2ACAA /* style.css */; };
+		023C35A42807F75B00C2ACAA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 023C35A02807F75B00C2ACAA /* manifest.json */; };
+		023C35A52807F75B00C2ACAA /* content-script.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C35A12807F75B00C2ACAA /* content-script.js */; };
+		023C35A62807F75B00C2ACAA /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C35A22807F75B00C2ACAA /* inject.js */; };
+		023C35A72807F75B00C2ACAA /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C359F2807F75B00C2ACAA /* style.css */; };
+		023C35A82807F75B00C2ACAA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 023C35A02807F75B00C2ACAA /* manifest.json */; };
+		023C35A92807F75B00C2ACAA /* content-script.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C35A12807F75B00C2ACAA /* content-script.js */; };
+		023C35AA2807F75B00C2ACAA /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C35A22807F75B00C2ACAA /* inject.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		023C35712807F75B00C2ACAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 023C353D2807F75A00C2ACAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023C356E2807F75B00C2ACAA;
+			remoteInfo = "STLToday Paywall Buster Extension (iOS)";
+		};
+		023C357B2807F75B00C2ACAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 023C353D2807F75A00C2ACAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023C35782807F75B00C2ACAA;
+			remoteInfo = "STLToday Paywall Buster Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		023C35932807F75B00C2ACAA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				023C35702807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C359A2807F75B00C2ACAA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				023C357A2807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		023C35442807F75A00C2ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		023C35452807F75A00C2ACAA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		023C35462807F75A00C2ACAA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		023C35472807F75A00C2ACAA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		023C35482807F75A00C2ACAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		023C35492807F75B00C2ACAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		023C354B2807F75B00C2ACAA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		023C35502807F75B00C2ACAA /* STLToday Paywall Buster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STLToday Paywall Buster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023C35532807F75B00C2ACAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		023C35552807F75B00C2ACAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		023C35582807F75B00C2ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		023C355B2807F75B00C2ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		023C355D2807F75B00C2ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023C35622807F75B00C2ACAA /* STLToday Paywall Buster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STLToday Paywall Buster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023C35642807F75B00C2ACAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		023C35672807F75B00C2ACAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		023C35692807F75B00C2ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023C356A2807F75B00C2ACAA /* STLToday Paywall Buster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "STLToday Paywall Buster.entitlements"; sourceTree = "<group>"; };
+		023C356F2807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "STLToday Paywall Buster Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023C35742807F75B00C2ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023C35792807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "STLToday Paywall Buster Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		023C357E2807F75B00C2ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023C357F2807F75B00C2ACAA /* STLToday Paywall Buster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "STLToday Paywall Buster.entitlements"; sourceTree = "<group>"; };
+		023C359F2807F75B00C2ACAA /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = ../../../src/style.css; sourceTree = "<group>"; };
+		023C35A02807F75B00C2ACAA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../src/manifest.json; sourceTree = "<group>"; };
+		023C35A12807F75B00C2ACAA /* content-script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "content-script.js"; path = "../../../src/content-script.js"; sourceTree = "<group>"; };
+		023C35A22807F75B00C2ACAA /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inject.js; path = ../../../src/inject.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		023C354D2807F75B00C2ACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C355F2807F75B00C2ACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C356C2807F75B00C2ACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C35762807F75B00C2ACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023C353C2807F75A00C2ACAA = {
+			isa = PBXGroup;
+			children = (
+				023C35412807F75A00C2ACAA /* Shared (App) */,
+				023C354A2807F75B00C2ACAA /* Shared (Extension) */,
+				023C35522807F75B00C2ACAA /* iOS (App) */,
+				023C35632807F75B00C2ACAA /* macOS (App) */,
+				023C35732807F75B00C2ACAA /* iOS (Extension) */,
+				023C357D2807F75B00C2ACAA /* macOS (Extension) */,
+				023C35512807F75B00C2ACAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		023C35412807F75A00C2ACAA /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				023C35482807F75A00C2ACAA /* ViewController.swift */,
+				023C35492807F75B00C2ACAA /* Assets.xcassets */,
+				023C35422807F75A00C2ACAA /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		023C35422807F75A00C2ACAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				023C35432807F75A00C2ACAA /* Main.html */,
+				023C35452807F75A00C2ACAA /* Icon.png */,
+				023C35462807F75A00C2ACAA /* Style.css */,
+				023C35472807F75A00C2ACAA /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		023C354A2807F75B00C2ACAA /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				023C359E2807F75B00C2ACAA /* Resources */,
+				023C354B2807F75B00C2ACAA /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		023C35512807F75B00C2ACAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				023C35502807F75B00C2ACAA /* STLToday Paywall Buster.app */,
+				023C35622807F75B00C2ACAA /* STLToday Paywall Buster.app */,
+				023C356F2807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */,
+				023C35792807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		023C35522807F75B00C2ACAA /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				023C35532807F75B00C2ACAA /* AppDelegate.swift */,
+				023C35552807F75B00C2ACAA /* SceneDelegate.swift */,
+				023C35572807F75B00C2ACAA /* LaunchScreen.storyboard */,
+				023C355A2807F75B00C2ACAA /* Main.storyboard */,
+				023C355D2807F75B00C2ACAA /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		023C35632807F75B00C2ACAA /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				023C35642807F75B00C2ACAA /* AppDelegate.swift */,
+				023C35662807F75B00C2ACAA /* Main.storyboard */,
+				023C35692807F75B00C2ACAA /* Info.plist */,
+				023C356A2807F75B00C2ACAA /* STLToday Paywall Buster.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		023C35732807F75B00C2ACAA /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				023C35742807F75B00C2ACAA /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		023C357D2807F75B00C2ACAA /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				023C357E2807F75B00C2ACAA /* Info.plist */,
+				023C357F2807F75B00C2ACAA /* STLToday Paywall Buster.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		023C359E2807F75B00C2ACAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				023C359F2807F75B00C2ACAA /* style.css */,
+				023C35A02807F75B00C2ACAA /* manifest.json */,
+				023C35A12807F75B00C2ACAA /* content-script.js */,
+				023C35A22807F75B00C2ACAA /* inject.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		023C354F2807F75B00C2ACAA /* STLToday Paywall Buster (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023C35942807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster (iOS)" */;
+			buildPhases = (
+				023C354C2807F75B00C2ACAA /* Sources */,
+				023C354D2807F75B00C2ACAA /* Frameworks */,
+				023C354E2807F75B00C2ACAA /* Resources */,
+				023C35932807F75B00C2ACAA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				023C35722807F75B00C2ACAA /* PBXTargetDependency */,
+			);
+			name = "STLToday Paywall Buster (iOS)";
+			productName = "STLToday Paywall Buster (iOS)";
+			productReference = 023C35502807F75B00C2ACAA /* STLToday Paywall Buster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		023C35612807F75B00C2ACAA /* STLToday Paywall Buster (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023C359B2807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster (macOS)" */;
+			buildPhases = (
+				023C355E2807F75B00C2ACAA /* Sources */,
+				023C355F2807F75B00C2ACAA /* Frameworks */,
+				023C35602807F75B00C2ACAA /* Resources */,
+				023C359A2807F75B00C2ACAA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				023C357C2807F75B00C2ACAA /* PBXTargetDependency */,
+			);
+			name = "STLToday Paywall Buster (macOS)";
+			productName = "STLToday Paywall Buster (macOS)";
+			productReference = 023C35622807F75B00C2ACAA /* STLToday Paywall Buster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		023C356E2807F75B00C2ACAA /* STLToday Paywall Buster Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023C35902807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster Extension (iOS)" */;
+			buildPhases = (
+				023C356B2807F75B00C2ACAA /* Sources */,
+				023C356C2807F75B00C2ACAA /* Frameworks */,
+				023C356D2807F75B00C2ACAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STLToday Paywall Buster Extension (iOS)";
+			productName = "STLToday Paywall Buster Extension (iOS)";
+			productReference = 023C356F2807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		023C35782807F75B00C2ACAA /* STLToday Paywall Buster Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 023C35972807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster Extension (macOS)" */;
+			buildPhases = (
+				023C35752807F75B00C2ACAA /* Sources */,
+				023C35762807F75B00C2ACAA /* Frameworks */,
+				023C35772807F75B00C2ACAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STLToday Paywall Buster Extension (macOS)";
+			productName = "STLToday Paywall Buster Extension (macOS)";
+			productReference = 023C35792807F75B00C2ACAA /* STLToday Paywall Buster Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		023C353D2807F75A00C2ACAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					023C354F2807F75B00C2ACAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					023C35612807F75B00C2ACAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					023C356E2807F75B00C2ACAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					023C35782807F75B00C2ACAA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 023C35402807F75A00C2ACAA /* Build configuration list for PBXProject "STLToday Paywall Buster" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 023C353C2807F75A00C2ACAA;
+			productRefGroup = 023C35512807F75B00C2ACAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				023C354F2807F75B00C2ACAA /* STLToday Paywall Buster (iOS) */,
+				023C35612807F75B00C2ACAA /* STLToday Paywall Buster (macOS) */,
+				023C356E2807F75B00C2ACAA /* STLToday Paywall Buster Extension (iOS) */,
+				023C35782807F75B00C2ACAA /* STLToday Paywall Buster Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		023C354E2807F75B00C2ACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C35822807F75B00C2ACAA /* Icon.png in Resources */,
+				023C35592807F75B00C2ACAA /* LaunchScreen.storyboard in Resources */,
+				023C35802807F75B00C2ACAA /* Main.html in Resources */,
+				023C35862807F75B00C2ACAA /* Script.js in Resources */,
+				023C358A2807F75B00C2ACAA /* Assets.xcassets in Resources */,
+				023C355C2807F75B00C2ACAA /* Main.storyboard in Resources */,
+				023C35842807F75B00C2ACAA /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C35602807F75B00C2ACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C35832807F75B00C2ACAA /* Icon.png in Resources */,
+				023C35852807F75B00C2ACAA /* Style.css in Resources */,
+				023C35682807F75B00C2ACAA /* Main.storyboard in Resources */,
+				023C35872807F75B00C2ACAA /* Script.js in Resources */,
+				023C358B2807F75B00C2ACAA /* Assets.xcassets in Resources */,
+				023C35812807F75B00C2ACAA /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C356D2807F75B00C2ACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C35A82807F75B00C2ACAA /* manifest.json in Resources */,
+				023C35AA2807F75B00C2ACAA /* inject.js in Resources */,
+				023C35A72807F75B00C2ACAA /* style.css in Resources */,
+				023C35A92807F75B00C2ACAA /* content-script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C35772807F75B00C2ACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C35A42807F75B00C2ACAA /* manifest.json in Resources */,
+				023C35A62807F75B00C2ACAA /* inject.js in Resources */,
+				023C35A32807F75B00C2ACAA /* style.css in Resources */,
+				023C35A52807F75B00C2ACAA /* content-script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		023C354C2807F75B00C2ACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C35882807F75B00C2ACAA /* ViewController.swift in Sources */,
+				023C35542807F75B00C2ACAA /* AppDelegate.swift in Sources */,
+				023C35562807F75B00C2ACAA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C355E2807F75B00C2ACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C35892807F75B00C2ACAA /* ViewController.swift in Sources */,
+				023C35652807F75B00C2ACAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C356B2807F75B00C2ACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C358C2807F75B00C2ACAA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		023C35752807F75B00C2ACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023C358D2807F75B00C2ACAA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		023C35722807F75B00C2ACAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 023C356E2807F75B00C2ACAA /* STLToday Paywall Buster Extension (iOS) */;
+			targetProxy = 023C35712807F75B00C2ACAA /* PBXContainerItemProxy */;
+		};
+		023C357C2807F75B00C2ACAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 023C35782807F75B00C2ACAA /* STLToday Paywall Buster Extension (macOS) */;
+			targetProxy = 023C357B2807F75B00C2ACAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		023C35432807F75A00C2ACAA /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023C35442807F75A00C2ACAA /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		023C35572807F75B00C2ACAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023C35582807F75B00C2ACAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		023C355A2807F75B00C2ACAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023C355B2807F75B00C2ACAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		023C35662807F75B00C2ACAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				023C35672807F75B00C2ACAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		023C358E2807F75B00C2ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		023C358F2807F75B00C2ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		023C35912807F75B00C2ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster.Extension";
+				PRODUCT_NAME = "STLToday Paywall Buster Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		023C35922807F75B00C2ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster.Extension";
+				PRODUCT_NAME = "STLToday Paywall Buster Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		023C35952807F75B00C2ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster";
+				PRODUCT_NAME = "STLToday Paywall Buster";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		023C35962807F75B00C2ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster";
+				PRODUCT_NAME = "STLToday Paywall Buster";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		023C35982807F75B00C2ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/STLToday Paywall Buster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster.Extension";
+				PRODUCT_NAME = "STLToday Paywall Buster Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		023C35992807F75B00C2ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/STLToday Paywall Buster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster.Extension";
+				PRODUCT_NAME = "STLToday Paywall Buster Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		023C359C2807F75B00C2ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/STLToday Paywall Buster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster";
+				PRODUCT_NAME = "STLToday Paywall Buster";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		023C359D2807F75B00C2ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/STLToday Paywall Buster.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "STLToday Paywall Buster";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.STLToday-Paywall-Buster";
+				PRODUCT_NAME = "STLToday Paywall Buster";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		023C35402807F75A00C2ACAA /* Build configuration list for PBXProject "STLToday Paywall Buster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023C358E2807F75B00C2ACAA /* Debug */,
+				023C358F2807F75B00C2ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023C35902807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023C35912807F75B00C2ACAA /* Debug */,
+				023C35922807F75B00C2ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023C35942807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023C35952807F75B00C2ACAA /* Debug */,
+				023C35962807F75B00C2ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023C35972807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023C35982807F75B00C2ACAA /* Debug */,
+				023C35992807F75B00C2ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		023C359B2807F75B00C2ACAA /* Build configuration list for PBXNativeTarget "STLToday Paywall Buster (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023C359C2807F75B00C2ACAA /* Debug */,
+				023C359D2807F75B00C2ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 023C353D2807F75A00C2ACAA /* Project object */;
+}
