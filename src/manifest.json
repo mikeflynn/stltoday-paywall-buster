@@ -1,0 +1,23 @@
+{
+  "name": "STLToday Paywall Buster",
+  "description": "Break down that paywall until they make a good one.",
+  "version": "2022.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://*.stltoday.com/*"]
+    }
+  ],
+  "content_scripts": [
+  {
+    "matches": ["https://*.stltoday.com/*"],
+    "run_at": "document_start",
+    "css": ["style.css"],
+    "js": ["content-script.js"]
+  }
+ ]
+}
