@@ -1,9 +1,7 @@
 # STLToday Paywall Buster
 
 
-[Changelog](#changelog)
-[Installation](#installation)
-[Links](#links)
+Quick Access: [Changelog](#changelog)     [Installation](#installation)     [Links](#links)
 
 --
 
