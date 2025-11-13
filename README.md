@@ -49,11 +49,11 @@ This new browser extension counteracts the new paywall in a few different ways:
 
 For good measure, the extension also hides a few of the most annoying ad blocks and "features" below the article.
 
-## v2021
+### v2021
 
 This repo has been retired in favor of this actively updated Gist that creates a bookmarklet to get around the STLToday paywall: https://gist.github.com/mikeflynn/bc92e4d1ad1d09253c4c44fcb99a439c
 
-## v2014
+### v2014
 
 A browser user script to prevent the [STLToday.com](http://stltoday.com) (the website of St. Louis' major newspaper, The Post Dispatch) paywall from activating by simply marking the content as free. See how to install this on your browser of choice (Chrome or Firefox are preferred) here: [wiki.greasespot.net/Cross-browser_userscripting](http://wiki.greasespot.net/Cross-browser_userscripting)
 
