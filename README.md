@@ -29,6 +29,14 @@ I will no longer be telling them to just not deliver the content to the browser.
 
 You can download the new release here and just manually add it to your Chrome. I haven't updated the Safari version because it's a pain and I don't think anyone used it.
 
+### v2025.08
+
+They changed the paywall! 
+
+After a quick investigation it turns out that [if you just turn off Javascript for the stltoday.com domain you can read everything just fine](https://c33tech.com/blog/2025/08/hacking_the_stltoday_paywall_v2025/). 
+
+No extension update needed.
+
 ### v2022
 
 The repo and browser extension is back! In April of 2022, STLToday.com released a new version of their paywall. It's smarter, and that's why we have to go back from it being an easily installed bookmarklet, to a full browser extension...but it's not smart enough to stop us.
