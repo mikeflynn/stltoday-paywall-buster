@@ -1,7 +1,7 @@
 {
   "name": "STLToday Paywall Buster",
   "description": "Break down that paywall until they make a good one.",
-  "version": "2022.0",
+  "version": "2025.11",
   "manifest_version": 3,
   "permissions": [
     "activeTab"
