@@ -75,7 +75,7 @@ Here's a blog posts with more info:
 1. [STLToday's Paywall is Weak](https://c33tech.com/blog/2014/04/stltoday-paywall-is-weak/)
 2. [Follow Up on the STLToday.com Paywall Story](https://c33tech.com/blog/2014/04/follow-up-on-stltoday-paywall/)
 
-Media Converage: [Riverfront Times: This Guy Hacked the St. Louis Post-Dispatch Paywall in Ten Minutes, And You Can, Too](http://blogs.riverfronttimes.com/dailyrft/2014/04/this_guy_hacked_the_st_louis_p.php) (they died and so did this link)
+Media Converage: [Riverfront Times: This Guy Hacked the St. Louis Post-Dispatch Paywall in Ten Minutes, And You Can, Too](https://web.archive.org/web/20140501234127/http://blogs.riverfronttimes.com/dailyrft/2014/04/this_guy_hacked_the_st_louis_p.php)
 
 ## Installation
 
